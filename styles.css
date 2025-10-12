@@ -1,0 +1,100 @@
+:root {
+--White: hsl(0, 0%, 100%);
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+--Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+font-family: "Outfit";
+}
+
+@font-face {
+    font-family: "Young-Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: var(--Stone-100);
+    margin: 0;
+    padding: 5vw 25vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--White);
+    padding: 2.2vw;
+    border-radius: 15px;
+    min-width: 40vh;
+}
+
+.page-banner {
+    width: 100%;
+    border-radius: 12px;
+}
+
+header h1 {
+    font-family: "Young-Serif";
+    font-weight: 400;
+    color: var(--Stone-900);
+    padding: 1.5rem 0;
+}
+
+header p {
+    font-weight: 400;
+    color: var(--Stone-600);
+    margin-bottom: 2.3rem;
+}
+
+.prep-time-section {
+    background-color: var(--Rose-50);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.prep-time-section h3 {
+    font-weight: 600;
+    color: var(--Rose-800);
+    margin-bottom: 0.8rem;
+}
+
+.prep-time-section ul {
+    margin-left: 2.5rem;
+    color: var(--Stone-600);
+}
+
