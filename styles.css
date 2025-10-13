@@ -50,7 +50,7 @@ body {
     height: 100%;
     background-color: var(--Stone-100);
     margin: 0;
-    padding: 5vw 25vw;
+    padding: 25% 25vw;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -93,8 +93,66 @@ header p {
     margin-bottom: 0.8rem;
 }
 
-.prep-time-section ul {
-    margin-left: 2.5rem;
+ul li, ol li{
     color: var(--Stone-600);
+    margin-left: 1.7rem;
+    padding-left: 0.8rem;
+    padding-bottom: 0.7rem;
+    
 }
 
+hr {
+    margin: 1.5rem;
+    border: none;
+    height: 1px;
+    background-color: var(--Stone-150);
+}
+
+li span {
+    font-weight: 600;
+}
+
+h2 {
+    font-family:  "Young-serif";
+    color: var(--Brown-800);
+    font-weight: 400;
+    margin: 1.2rem 0;
+}
+
+.instructions-section h2 {
+    font-family:  "Young-serif";
+    color: var(--Brown-800);
+    font-weight: 400;
+    margin: 1.2rem 0;    
+}
+
+table {
+    width: 100%;
+}
+
+table caption {
+    text-align: start;
+    color: var(--Stone-600);
+    margin-bottom: 1rem;
+}
+
+td {
+    border-bottom: 1px solid var(--Stone-150);
+    padding: 0.5rem 0;
+}
+
+
+tr:last-child td {
+    border: none;
+}
+
+td:first-child {
+    color: var(--Stone-600);
+    font-weight: 400;
+    padding-left: 2rem;
+}
+
+td:last-child {
+    color: var(--Brown-800);
+    font-weight: 600;
+}
